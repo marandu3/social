@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.sidebarchoices{
+  list-style: none;
+  color:white;
+  text-align: center;
+  transform: translateX(-25px);
+}
+
+.sidebarchoices:hover{
+  background-color:black;
+  padding-left:5;
+  cursor: pointer;
+  color:rgb(185, 62, 17);
+  border-radius: 5px;
+  
+}
+
+.body{
+  background-color: black;
+  display:flex;
+  height: 100vh;
+  width: 100%;
+  padding:0;
+  margin:0;
+  
+}
+
+.sidecontainer{
+  background-color: rgb(65, 67, 68);
+  width:200px;
+  flex:1;
+  margin:5px;
+  border-radius: 5px;
+}
+
+.contentsect{
+  background-color: rgb(65, 67, 68);
+  flex:4;
+  margin:5px;
+  border-radius: 5px;
+ 
+}
+
+.headribbon{
+  width: 97%;
+  height: 27px;
+  background-color: black;
+  margin: 5px;
+  border-radius: 5px;
+  display:flex;
+  gap:10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headribboncontent{
+  color:white;
+  margin-left:10px;
+  transform: translateX(-20px);
+}
+
+  
+.searchfield{
+  background-color: black;
+  width:97%;
+  margin:5px;
+  display:flex;
+  border-radius: 5px;
+  height: 30px;
+  text-align: center;
+  
+}
+
+.formcontainer{
+  width: 100%;
+  display: flex;
+  
+}
+
+.formin{
+  width: 100%;
+}
+
+.formin input{
+  border: 2px solid rgb(234, 109, 64);
+  border-radius: 5px;
+  margin-left: 2px;
+  background-color: rgb(65, 67, 68);
+  height: 30px;
+  color: white;
+  
+}
+
+.formin label{
+  border-radius: 5px;
+  margin-left: 6px;
+}
